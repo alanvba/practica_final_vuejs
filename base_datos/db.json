@@ -1,0 +1,170 @@
+{
+  "empresa": {
+    "id": 1,
+    "descripcion": "Empresa F&F",
+    "rubro": "soluciones informaticas",
+    "direccion": "Sucre Bolivia",
+    "nit": "000012000"
+  },
+  "areas": [
+    {
+      "id": 1,
+      "nombre": "Finanzas",
+      "encargado": "Belen de los Rios",
+      "cantidad": 10,
+      "empresaId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Juridica",
+      "encargado": "Manuel Cuba",
+      "cantidad": 15,
+      "empresaId": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Informatica",
+      "encargado": "Zukember",
+      "cantidad": 7,
+      "empresaId": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Biblioteca",
+      "encargado": "Oda",
+      "cantidad": 3,
+      "empresaId": 1
+    },
+    {
+      "nombre": "Auditoria",
+      "encargado": "Juan",
+      "cantidad": 10,
+      "empresaId": 1,
+      "id": 5
+    },
+    {
+      "nombre": "Planificacion",
+      "encargado": "Jupiter",
+      "cantidad": 50,
+      "empresaId": 1,
+      "id": 6
+    }
+  ],
+  "tipoactivos": [
+    {
+      "id": 1,
+      "nombre": "Computadora",
+      "estado": "true"
+    },
+    {
+      "id": 2,
+      "nombre": "Sillones",
+      "estado": "true"
+    },
+    {
+      "id": 3,
+      "nombre": "Escritorio",
+      "estado": "true"
+    },
+    {
+      "id": 4,
+      "nombre": "Monitor",
+      "estado": "true"
+    },
+    {
+      "id": 5,
+      "nombre": "Libros",
+      "estado": "true"
+    }
+  ],
+  "activos": [
+    {
+      "id": 1,
+      "tipoactivoId": 1,
+      "marca": "Alien War",
+      "modelo": "2023",
+      "estado": "Nuevo",
+      "areaId": 1
+    },
+    {
+      "id": 2,
+      "tipoactivoId": 1,
+      "marca": "Alien War",
+      "modelo": "2023",
+      "estado": "Nuevo",
+      "areaId": 1
+    },
+    {
+      "id": 3,
+      "tipoactivoId": 1,
+      "marca": "Toshiba i7",
+      "modelo": "Satellite 2014",
+      "estado": "Usado",
+      "areaId": 1
+    },
+    {
+      "id": 4,
+      "tipoactivoId": 1,
+      "marca": "ASUS i7",
+      "modelo": "2024",
+      "estado": "desuso",
+      "areaId": 1
+    },
+    {
+      "id": 5,
+      "tipoactivoId": 2,
+      "marca": "Geimers i9",
+      "modelo": "2024",
+      "estado": "Nuevo",
+      "areaId": 3
+    },
+    {
+      "id": 6,
+      "tipoactivoId": 3,
+      "marca": "Geimers",
+      "modelo": "2024",
+      "estado": "Nuevo",
+      "areaId": 3
+    },
+    {
+      "id": 7,
+      "tipoactivoId": 1,
+      "marca": "Geimers i9",
+      "modelo": "2025",
+      "estado": "Usado",
+      "areaId": 3
+    },
+    {
+      "id": 8,
+      "tipoactivoId": 4,
+      "marca": "Dell",
+      "modelo": "2025 21 pulg.",
+      "estado": "Usado",
+      "areaId": 3
+    },
+    {
+      "id": 9,
+      "tipoactivoId": 5,
+      "marca": "Impreso",
+      "modelo": "Ley 025",
+      "estado": "Usado",
+      "areaId": 2
+    },
+    {
+      "id": 10,
+      "tipoactivoId": 5,
+      "marca": "Impreso",
+      "modelo": "CPE",
+      "estado": "Usado",
+      "areaId": 4
+    },
+    {
+      "areaId": 3,
+      "marca": "Geimer 2025",
+      "modelo": "2025",
+      "estado": "desuso",
+      "tipoactivoId": 3,
+      "id": 11
+    }
+  ]
+}
